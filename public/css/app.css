@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+
+.label-in_progress {
+    background-color: #3c8dbc !important;
+}
+.label-on_going {
+    background-color: #f39c12 !important;
+}
+.label-failed {
+    background-color: #dd4b39 !important;
+}
+.label-finish {
+    background-color: #00a65a !important;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    vertical-align: middle;
+}
+
+.manage-td {
+    width: 40px;
+}
+.manage-div{
+    width: 40px;
+    display: inline-block;
+}
+.box-header h3 {
+    line-height: 40px;
+}
+
+.not-edit{
+    pointer-events: none;
+    background-color: #F7F7F7;
+}
