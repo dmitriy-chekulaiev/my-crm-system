@@ -18,6 +18,7 @@ class CreateInvitesTable extends Migration
             $table->integer('team_id')->unsigned();
             $table->integer('user_id')->nullable()->unsigned();
             $table->text('token');
+            $table->string('email');
             $table->timestamps();
         });
     }

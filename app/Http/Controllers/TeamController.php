@@ -44,9 +44,7 @@ class TeamController extends Controller
         ]);
 
         event(new InviteUser($request->email));
-
-
-        Session::flash('success', __('Invite sent!'));
+        
         return redirect()->back();
 
     }
